@@ -143,5 +143,10 @@ namespace HarmonyTools
                     return NoteName.Empty;
             }
         }
+
+        public IEnumerable<Note> EnumerateNotes(string root, Pattern pattern)
+        {
+            return EnumerateNotes(Parse(root), pattern);
+        }
     }
 }

@@ -56,5 +56,16 @@ namespace Tests
                 Console.WriteLine("==================================");
             }
         }
+
+        [Test]
+        public void Keyboard()
+        {
+            var keyboard = new Keyboard(-1, 8);
+
+            foreach (var midiKey in keyboard.Keys())
+            {
+                Console.WriteLine($"Midi Number {midiKey.NoteNumber} \tOctave {midiKey.Octave.OctaveNumber} \t Note {midiKey.Note}");
+            }
+        }
     }
 }
