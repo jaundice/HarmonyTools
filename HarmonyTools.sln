@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarmonyTools", "HarmonyTools\HarmonyTools.csproj", "{217EED93-564B-4A77-9975-E0621B537136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{EB1C0A3E-BEE0-46E9-ADA4-3A4A945F366A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217EED93-564B-4A77-9975-E0621B537136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217EED93-564B-4A77-9975-E0621B537136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217EED93-564B-4A77-9975-E0621B537136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217EED93-564B-4A77-9975-E0621B537136}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB1C0A3E-BEE0-46E9-ADA4-3A4A945F366A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB1C0A3E-BEE0-46E9-ADA4-3A4A945F366A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB1C0A3E-BEE0-46E9-ADA4-3A4A945F366A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB1C0A3E-BEE0-46E9-ADA4-3A4A945F366A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E320553-37B3-40A0-95A3-A0E3448A53BF}
+	EndGlobalSection
+EndGlobal
