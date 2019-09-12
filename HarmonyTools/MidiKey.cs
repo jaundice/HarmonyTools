@@ -6,15 +6,16 @@ namespace HarmonyTools
 {
     public class MidiKey
     {
+        private readonly KeyboardOctave _Octave;
         public int NoteNumber { get; }
         public Note Note { get; }
-        public KeyboardOctave Octave { get; }
+        public int Octave => _Octave.OctaveNumber;
 
         internal MidiKey(int noteNumber, Note note, KeyboardOctave octave)
         {
             NoteNumber = noteNumber;
             Note = note;
-            Octave = octave;
+            _Octave = octave;
 
         }
     }

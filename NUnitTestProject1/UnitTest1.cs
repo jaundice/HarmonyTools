@@ -64,7 +64,7 @@ namespace Tests
 
             foreach (var midiKey in keyboard.Keys())
             {
-                Console.WriteLine($"Midi Number {midiKey.NoteNumber} \tOctave {midiKey.Octave.OctaveNumber} \t Note {midiKey.Note}");
+                Console.WriteLine($"Midi Number {midiKey.NoteNumber:000} \tOctave {midiKey.Octave} \t Note {midiKey.Note}");
             }
         }
     }
